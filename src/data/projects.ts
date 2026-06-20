@@ -20,28 +20,21 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Example Project One",
+    title: "Full-Stack Chat App",
     description:
-      "Replace this with a real deployed project. Describe the problem it solves and the impact it had.",
-    liveUrl: "https://example.com",
-    repoUrl: "https://github.com/yourname/example-one",
-    stack: ["Next.js", "TypeScript", "PostgreSQL"],
-    metrics: [
-      { label: "Monthly users", value: "5k+" },
-      { label: "Uptime", value: "99.9%" },
-      { label: "Load time", value: "<1s" },
-    ],
+      "A real-time chat application where users sign in and exchange messages. Built as a full TypeScript stack with a React client and an Express API.",
+    liveUrl: "https://fullstack-chat-app-7pli.onrender.com/",
+    repoUrl: "https://github.com/Markivanarcega01/fullstack-chat-app",
+    stack: ["React", "TypeScript", "Node.js", "Express"],
+    // metrics: [{ label: "Users", value: "" }], // add the numbers from your resume
   },
   {
-    title: "Example Project Two",
+    title: "Product Store",
     description:
-      "Another deployed site. Keep descriptions tight and lead with outcomes, not implementation details.",
-    liveUrl: "https://example.org",
-    repoUrl: "https://github.com/yourname/example-two",
-    stack: ["React", "Node.js", "Tailwind CSS"],
-    metrics: [
-      { label: "API requests/day", value: "120k" },
-      { label: "Lighthouse", value: "100" },
-    ],
+      "A full-stack e-commerce store with full create, read, update, and delete management for products, backed by a React + Express app.",
+    liveUrl: "https://product-store-gpog.onrender.com/",
+    repoUrl: "https://github.com/Markivanarcega01/Product-store",
+    stack: ["React", "TypeScript", "Node.js", "Express"],
+    // metrics: [{ label: "Products", value: "" }], // add the numbers from your resume
   },
 ];
